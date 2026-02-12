@@ -4,12 +4,12 @@ A simple web browser built in Rust using Microsoft's WebView2 for Windows.
 
 ## Features
 
-- ✅ Full web browsing capabilities using WebView2 (Microsoft Edge rendering engine)
-- ✅ URL bar with automatic HTTPS protocol addition
-- ✅ Navigation buttons (Back, Forward)
-- ✅ Refresh button
-- ✅ Go button to navigate to entered URLs
-- ✅ Automatic URL bar updates when navigating
+- Full web browsing capabilities using WebView2 (Microsoft Edge rendering engine)
+- URL bar with automatic HTTPS protocol addition
+- Navigation buttons (Back, Forward)
+- Refresh button
+- Go button to navigate to entered URLs
+- Automatic URL bar updates when navigating
 
 ## Prerequisites
 
@@ -40,14 +40,6 @@ Or run the executable directly:
 ```bash
 target/release/rust-browser.exe
 ```
-
-## Usage
-
-- **Enter a URL**: Type in the URL bar and click "Go" or press Enter
-- **Navigate Back**: Click the "← Back" button
-- **Navigate Forward**: Click the "Forward →" button  
-- **Refresh Page**: Click the "⟳ Refresh" button
-- **Browse**: The browser will automatically add "https://" if you don't include a protocol
 
 ## Technical Details
 
